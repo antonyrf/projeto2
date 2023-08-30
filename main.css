@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #fdfdfd;
+}
+
+header{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+header h1{
+    color: #0a0a0a;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.container{
+    max-width: 968px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form{
+    display: flex;
+    max-width: 968px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+form button{
+    background-color: #102744;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding:  18px;
+    border-radius: 8px;
+    border: 0;
+    transition: background-color 1s;
+}
+
+form input{
+    border-radius: 8px;
+    border: none;
+    padding: 0px 50px 0px 15px;
+    background: #f1f1f1;
+}
+
+form input:focus{
+    outline: none;
+}
+
+button:hover{
+    background-color: #098b64;
+    color: white;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #f9fbff;
+}
+
+table th{
+    background-color: #098b64;
+    padding: 25px;
+    color: white;
+    text-align: center;
+    font-size: 23px;
+}
+
+.titulo-nome {
+    background-color: #1F5370;
+    border-radius: 5px 0px 0px 0px;
+}
+
+.titulo-telefone {
+    background-color: #8DCDF2;
+}
+.titulo-categoria {
+    background-color: #43B0F0;
+    border-radius: 0px 5px 0px 0px;
+}
+
+table td{
+    padding: 25px;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2)
+}
+
+table tr:hover{
+    background: #e6e6e6;
+    transition: background-color 1s;
+}
+

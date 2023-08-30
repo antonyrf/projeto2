@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Agenda</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@1,100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>the agenda</h1>
+        </header>
+        <form id="form-agenda">
+            <input id="nome-pessoa" type="text" required placeholder="nome do contato">
+            <input id="numero-telefone" onkeyup="handlePhone(event)" type="tel" maxlength="15" minlength="11" required placeholder="número do contato">
+            <input id="categoria" type="text" required placeholder="categoria">
+            <button type="submit">novo contato</button>
+        </form>
+        <div class="tabelas">
+            <table class="tabela-nome">
+                <thead>
+                    <tr>
+                        <th class="titulo-nome">
+                            Nome
+                        </th>
+                        <th class="titulo-telefone">
+                            Telefone
+                        </th>
+                        <th class="titulo-categoria">
+                            Categoria
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="/main.js"></script>
+</body>
+</html>
